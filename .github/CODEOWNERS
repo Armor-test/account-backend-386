@@ -1,0 +1,35 @@
+# CODEOWNERS file for account-backend-386
+# Global owners - will be requested for all PRs
+* @Armor-test/team-core @Armor-test/team-governance @Armor-test/squad-ux
+
+# Directory ownership
+/lib/ @Armor-test/grp-search @Armor-test/squad-search
+/web/ @Armor-test/dept-test @Armor-test/unit-design
+/views/ @Armor-test/dept-reliability @Armor-test/squad-ml @Armor-test/dept-data
+/controllers/ @Armor-test/team-governance @Armor-test/team-security @Armor-test/squad-payments
+/src/ @Armor-test/grp-storage @Armor-test/squad-apps
+/dist/ @Armor-test/squad-performance @Armor-test/dept-logging
+/extensions/ @Armor-test/team-security @Armor-test/dept-notifications @Armor-test/grp-search
+/third_party/ @Armor-test/team-research @Armor-test/squad-search @Armor-test/squad-frontend
+/scripts/ @Armor-test/squad-cache @Armor-test/squad-payments
+/vendor/ @Armor-test/team-notifications @Armor-test/dept-billing
+/app/ @Armor-test/dept-logging @Armor-test/unit-test
+
+# File type ownership
+*.php @Armor-test/unit-governance @Armor-test/squad-api
+*.go @Armor-test/dept-reliability @Armor-test/squad-payments
+*.cpp @Armor-test/dept-release @Armor-test/squad-qa
+*.properties @Armor-test/dept-data @Armor-test/squad-mobile @Armor-test/unit-devops
+*.graphql @Armor-test/grp-integration @Armor-test/team-core
+*.css @Armor-test/team-notifications @Armor-test/dept-reliability @Armor-test/unit-design
+*.config @Armor-test/team-reporting @Armor-test/grp-search
+*.ini @Armor-test/dept-ui @Armor-test/grp-ui @Armor-test/dept-notifications
+*.gradle @Armor-test/squad-apps @Armor-test/team-security @Armor-test/team-logging
+*.md @Armor-test/dept-ui @Armor-test/squad-performance @Armor-test/dept-logging
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
